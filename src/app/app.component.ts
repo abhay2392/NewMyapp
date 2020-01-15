@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MyApp';
+  FromAppRoot="Data";
+
+  FunctionInRoot(dt)
+  {
+    console.log(dt+" received");
+  }
 }

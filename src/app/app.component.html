@@ -18,4 +18,9 @@
   </li>
 </ul>
 
+
+
+<app-child1 [ChildInputData]='FromAppRoot' (functionFromChild)="FunctionInRoot($event)"></app-child1>
+<app-child2></app-child2>
+
 <router-outlet></router-outlet>
